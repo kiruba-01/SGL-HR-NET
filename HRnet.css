@@ -1,6 +1,6 @@
 .heading-work{
     display:flex;
-     width:83rem;
+     width:90%;
      height:20vh;
      border-radius:6rem;
    }
@@ -49,7 +49,7 @@
       display: flex;
       outline: none;
       font-size: 1rem;
-      margin-top:2rem ;
+      margin-top:2.3rem ;
       align-items: center;
       font-family: Helvetica;
       font-weight: bold;
@@ -62,7 +62,7 @@
      .landing-header{
         display: flex;
         flex-direction:column;
-        width: 75rem;
+        width: 85%;
         height: 28rem;
         margin-left: 5rem;
         margin-top: 3rem;
@@ -91,10 +91,9 @@
         color: #e11d48;
         font-size: 2.3rem;
         font-weight: 700;
-        width:33rem;
+        width:45%;
         font-family: Helvetica;
         margin-top: 3rem;
-
     }
     .header-part p{
         color: #52525b;
@@ -122,7 +121,7 @@
     .searchbar{
         display: flex;
         flex-direction:column;
-        width: 75rem;
+        width: 85%;
         height: 35rem;
         margin-left: 5rem;
         margin-top: 10rem;
@@ -138,13 +137,14 @@
     .leads-img img{
         width: 38rem;
         height: 28rem;
+
     }
     .leads-bar{
         margin-left: 35rem;
         margin-top: -31rem;
     }
     .searchbar h3{
-        width:25rem;
+        width:30%;
         font-size: 1.875rem;
         font-weight: 300;
         font-family:Helvetica, sans-serif, system-ui;
@@ -156,8 +156,9 @@
         font-size: 1.125rem;
         font-weight: 400;
         line-height: 2;
-        width: 25rem;
+        width: 35%;
         font-family:Helvetica, sans-serif, system-ui;
+        
     }
     .searchbar button{
         width: 8rem;
@@ -177,7 +178,7 @@
         margin-top: 8rem;
         font-weight: 300;
         font-family:Helvetica, sans-serif, system-ui;
-        font-size: 1.875rem;
+        font-size: 2rem;
     line-height: 2.25rem;
     }
     .text-content h7{
@@ -196,7 +197,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between; 
-        width: 70rem;
+        width: 78%;
         margin-left: 5rem;
     }
     .industry-net{
@@ -284,7 +285,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between; 
-        width: 70rem;
+        width: 78%;
         margin-left: 5rem;
     }
     .company-type{
@@ -374,19 +375,21 @@
         margin-top: 8rem;
         font-weight: 300;
         font-family:Helvetica, sans-serif, system-ui;
-        font-size: 1.875rem;
+        font-size: 1.8rem;
     line-height: 2.25rem;
     }
+
     .multi-table-box-section{
         width: 100%;
         height: 22rem;
         margin-top: 2rem;
         
+        
     }
     
     .multi-table-box-section .flexbox-2 .fifth-flexcontainer1{
         display: flex;
-        width: 70rem;
+        width: 84%;
         height: 6rem;
         margin-left: 5rem;
 
@@ -528,7 +531,7 @@
     
     .multi-table-box-section .flexbox-2 .fifth-container2{
         display: flex;
-        width: 70rem;
+        width: 84%;
         height: 6rem;
         margin-left: 5rem;
         margin-top: 1.2rem;
@@ -668,10 +671,10 @@
     
     .multi-table-box-section .flexbox-2 .fifth-list3{
         display: flex;
-        width: 70rem;
+        width: 65%;
         height: 6rem;
         margin-left: 5rem;
-        margin-top: 1.2rem;
+        margin-top: 1.2rem; 
     }
     
     .flexbox-2 .fifth-list3 .flexcontainer9{
@@ -773,7 +776,7 @@
         margin-top: 1rem;
     } 
     .directory-section{
-        width: 83.3rem;
+        width: 100%;
         height:25rem;
         background-color: #362f78;
         color: #FFFFFF;
@@ -791,7 +794,7 @@
     .inner-flex{
         display: flex;
         flex-direction: row;
-        width: 60rem;
+        width: 60%;
         height: 15rem;
         margin-left: 7rem;
     }
@@ -810,12 +813,11 @@
         font-weight: 500;
         line-height:1.75rem;
         font-family: system-ui, Helvetica, sans-serif;
-        width: 43rem;
+        width: 72%;
         height: 5rem;
         margin-left: -10rem;
         text-decoration: none;
         margin-top: 5rem;
-    
 }
 .letters-content a{
     text-decoration: none;
@@ -830,7 +832,6 @@
     margin-top: 2rem;
 }
 .overall-flex{
-    /* width:70rem; */
      height:52vh;
      margin-top:5rem;
      color: #1e1b4b;
@@ -838,7 +839,7 @@
 .flex-row{
     display:grid;
     grid-template-columns: 1fr 1fr;
-     width: 75rem;
+     width: 83%;
     height:10rem ;
       margin:1rem;
     border-radius:1rem;
@@ -846,10 +847,10 @@
     margin-left:6rem;
 }
  .class-flex{
-    margin-top:2rem; 
+    margin-top:3rem; 
     font:Helvetica;
     color:#0B132A;
-    width: 35rem;
+    width: 50%;
     height:4rem;
     font-size:1.5rem;
     font-weight:700;
@@ -859,7 +860,7 @@
       width:27rem;
     font-size:1rem;
     padding-left:1rem;
-       margin-left:-35rem;
+       margin-left:-28rem;
     font-weight:400;
       margin-top:4rem;
       height: 3rem;
@@ -896,6 +897,7 @@
    margin-left:-4rem;
    margin-top:5rem;
    cursor: pointer;
+
  }
  .innerflex1{
     padding-top:3rem;
@@ -934,6 +936,8 @@
    width: 72rem;
    cursor: pointer;
 
+   
+
   }
  .flexsecond :hover{
   border-bottom: 1px solid black;
@@ -959,7 +963,7 @@
   border-bottom: 1px solid black;
  }
  .footer-section{
-    width:83rem;
+    width:100%;
     background: #362f78;
     margin-top:15rem;
     height: 15rem;
@@ -1070,12 +1074,19 @@
       .map-image{
         display: none;
       }
+      .landing-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70rem;
+      }
     .header-part h2{
-        width: 100%;
+        width: 45rem;
         height: 3rem;
           font-size: 4rem;
         margin-top: 1rem;
         text-align: center;
+        margin-left: 10rem;
      }
      .header-part h1{
         width: 100%;
@@ -1114,6 +1125,7 @@
         font-size: 2rem;
         text-align: center;
         margin-top: 1rem;
+        margin-left: 15rem;
     }
     .searchbar button{
         width: 18rem;
@@ -1153,6 +1165,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left:  25rem; ;
     }
     .industry-net {
         width: 35rem;
@@ -1210,6 +1223,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 25rem;
     }
     .company-type {
         width: 35rem;
@@ -1544,6 +1558,10 @@
         margin-top: -5rem;
         color: #212429;
      }
+     .footer-section{
+        margin-top: 65em;
+        width:83rem;
+       }
     
      .directory-section{
         margin-top: 3rem;
@@ -1620,6 +1638,7 @@
       border:0.1rem solid #DC1735;
       }
       
+      
       .flextab{
         margin-left:-65rem;
          margin-top: 40rem; 
@@ -1655,14 +1674,6 @@
         padding-left: 1rem;
       
       }
-      
-      .footer-section{
-        margin-top: 60rem;
-        padding: 0px 0px 0px 0px;
-        height: 15rem;
-      }
-
-
 
 }
 
