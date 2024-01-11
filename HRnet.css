@@ -1,37 +1,36 @@
 .heading-work{
     display:flex;
-     width:90%;
+     width:100%;
      height:20vh;
      border-radius:6rem;
+    
    }
    .header-icon{
-     width:6rem;
-   height: 3rem;
+     width:8rem;
+   height: 4rem;
    margin-top: 2rem;
-   margin-left:2rem;
+   margin-left: 10rem;
    
    }
    .top-table{
      padding-top:3rem;
-     margin-left:3rem;
+     margin-left:7rem;
        font-size: 1.2rem;
        display: flex;
      color:rgba(73, 80, 87, 1);
      height:2rem;
-     width:27rem;
+     width:28rem;
     align-items:centre;
      flex-wrap:wrap;
      gap:1rem;
      flex-direction:row;
-      font-weight:400;
+      font-weight:500;
      font-style:Helvetica;
-     
-     
    }
    .blackcod{
     padding-top:3rem;
     display:flex;
-   margin-left:20rem;
+   margin-left:29rem;
     font-style:Helvetica;
     font-weight:700;
     font-size:1.2rem;
@@ -62,9 +61,9 @@
      .landing-header{
         display: flex;
         flex-direction:column;
-        width: 85%;
+        width: 100%;
         height: 28rem;
-        margin-left: 5rem;
+        /* margin-left: 5rem; */
         margin-top: 3rem;
     }
      
@@ -76,7 +75,7 @@
     .map-image{
         width: 35rem;
         height: 20rem;
-        margin-left: 38rem;
+        margin-left: 70rem;
         margin-top: -25rem;
 
     }
@@ -86,6 +85,7 @@
         font-weight:400;
         font-family: Helvetica;
         width: 24rem;
+        margin-left: 20rem;
     }
     .header-part h1{
         color: #e11d48;
@@ -94,6 +94,7 @@
         width:45%;
         font-family: Helvetica;
         margin-top: 3rem;
+        margin-left: 20rem;
     }
     .header-part p{
         color: #52525b;
@@ -103,6 +104,7 @@
         font-family: Helvetica;
         line-height: 1.5rem;
         margin-top: 6rem;
+        margin-left: 20rem;
     }
     .start-button{
         color: #FFFFFF;
@@ -117,13 +119,14 @@
         border: none;
         font-family: Helvetica;
         cursor: pointer;
+        margin-left: 20rem;
     }
     .searchbar{
         display: flex;
         flex-direction:column;
-        width: 85%;
+        width: 100%;
         height: 35rem;
-        margin-left: 5rem;
+        /* margin-left: 5rem; */
         margin-top: 10rem;
     }
     .searchbar img{
@@ -140,8 +143,8 @@
 
     }
     .leads-bar{
-        margin-left: 35rem;
-        margin-top: -31rem;
+        margin-left: 60%;
+        margin-top: -20rem;
     }
     .searchbar h3{
         width:30%;
@@ -150,6 +153,7 @@
         font-family:Helvetica, sans-serif, system-ui;
         line-height: 1.625;
         color: #262626;
+        margin-left: 20rem;
     }
     .searchbar h6{
         color: #52525b;
@@ -158,7 +162,7 @@
         line-height: 2;
         width: 35%;
         font-family:Helvetica, sans-serif, system-ui;
-        
+        margin-left: 20rem;
     }
     .searchbar button{
         width: 8rem;
@@ -171,6 +175,7 @@
         font-weight: 700;
         font-family:Helvetica, sans-serif, system-ui;
         cursor: pointer;
+        margin-left: 20rem;
     }
     .text-content h2{
         color:#262626;
@@ -182,9 +187,9 @@
     line-height: 2.25rem;
     }
     .text-content h7{
-        width: 30rem;
+        width: 30%;
         margin-top: 3rem;
-        margin-left: 26rem;
+        margin-left: 35%;
         font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 400;
@@ -196,9 +201,9 @@
     .content-box{
         display: flex;
         flex-direction: row;
-        justify-content: space-between; 
-        width: 78%;
-        margin-left: 5rem;
+        justify-content: space-evenly; 
+        width: 100%;
+        /* margin-left: 5rem; */
     }
     .industry-net{
         display: flex;
@@ -284,9 +289,9 @@
     .content-box2{
         display: flex;
         flex-direction: row;
-        justify-content: space-between; 
-        width: 78%;
-        margin-left: 5rem;
+        justify-content: space-evenly; 
+        width: 100%;
+        /* margin-left: 5rem; */
     }
     .company-type{
         display: flex;
@@ -382,17 +387,14 @@
     .multi-table-box-section{
         width: 100%;
         height: 22rem;
-        margin-top: 2rem;
-        
-        
+        margin-top: 2rem;        
     }
     
     .multi-table-box-section .flexbox-2 .fifth-flexcontainer1{
         display: flex;
-        width: 84%;
+        width: 65%;
         height: 6rem;
-        margin-left: 5rem;
-
+        margin-left: 17%;
     }
     
     .multi-table-box-section .flexbox-2 .fifth-flexcontainer1 .flexcontainer1{
@@ -531,9 +533,9 @@
     
     .multi-table-box-section .flexbox-2 .fifth-container2{
         display: flex;
-        width: 84%;
+        width: 65%;
         height: 6rem;
-        margin-left: 5rem;
+        margin-left: 17%;
         margin-top: 1.2rem;
     }
     
@@ -673,7 +675,7 @@
         display: flex;
         width: 65%;
         height: 6rem;
-        margin-left: 5rem;
+        margin-left: 17%;
         margin-top: 1.2rem; 
     }
     
@@ -839,28 +841,30 @@
 .flex-row{
     display:grid;
     grid-template-columns: 1fr 1fr;
-     width: 83%;
+     width: 85%;
     height:10rem ;
       margin:1rem;
     border-radius:1rem;
     background-color:#F8F9FA;
-    margin-left:6rem;
+    margin-left:8rem;
 }
  .class-flex{
     margin-top:3rem; 
     font:Helvetica;
     color:#0B132A;
-    width: 50%;
+    width: 55%;
     height:4rem;
     font-size:1.5rem;
     font-weight:700;
     margin-left:3rem;
+    margin-top: 3.7rem;
+    /* background-color: palegreen; */
 }
   .wrapper input{
-      width:27rem;
+      width: 100%;
     font-size:1rem;
     padding-left:1rem;
-       margin-left:-28rem;
+       margin-left:-40%;
     font-weight:400;
       margin-top:4rem;
       height: 3rem;
@@ -868,7 +872,6 @@
     border:0.1rem solid #DC1735;
      outline:none;
       font-family: Helvetica;
-    background:#FFFFFF;
     
   }
   .wrapper button {
@@ -897,7 +900,6 @@
    margin-left:-4rem;
    margin-top:5rem;
    cursor: pointer;
-
  }
  .innerflex1{
     padding-top:3rem;
@@ -908,13 +910,12 @@
    line-height:0.7rem;
   align-items:centre;
    flex-wrap:wrap;
-   gap:1.5rem;
+   gap: 1.5rem;
    flex-direction:row;
     font-weight:500;
    font-style:Helvetica;
    margin-left:-4rem;
    cursor: pointer;
-
   }
   .innerflex1 :hover{
     border-bottom: 1px solid black;
@@ -980,7 +981,7 @@
     margin-top:3rem;
   }
   .mui-root{
-    margin-left:32rem;
+    margin-left: 45%;
     margin-top: 2rem;
     color:#FFFFFF;
     font-size:0.9rem;
@@ -989,7 +990,7 @@
     opacity: 0.3;
   }
   .mui-icons{
-    margin-left:65rem;
+    margin-left: 85%;
     margin-top:-3rem;
     width: 0.3rem;
     display: flex;
@@ -1086,13 +1087,14 @@
           font-size: 4rem;
         margin-top: 1rem;
         text-align: center;
-        margin-left: 10rem;
+        margin-left: 15rem;
      }
      .header-part h1{
         width: 100%;
         font-size: 4.5rem;
         margin-top: 2rem;
         text-align: center;
+        margin-left: 5rem;
      }
      .header-part p{
         width:100%;
@@ -1100,6 +1102,7 @@
         font-size: 1.8rem;
         text-align: center;
         line-height:3rem;
+        margin-left: 4rem;
     }
     .start-button{
         width: 15rem;
@@ -1118,13 +1121,13 @@
         height: 17rem;
         font-size: 3rem;
         text-align: center;
-        margin-left: 8rem;
+        margin-left: 10.5rem;
     }
     .searchbar h6{
         width: 100%;
         font-size: 2rem;
         text-align: center;
-        margin-top: 1rem;
+        margin-top: 2rem;
         margin-left: 15rem;
     }
     .searchbar button{
@@ -1141,10 +1144,12 @@
     .leads-bar img{
         width: 75rem;
         height: 9rem;
+        margin-left: 6rem;
     }
     .leads-img img{
         height: 40rem;
         margin-top: 3rem;
+        margin-left: 6rem;
     }
     .text-content h2{
         width: 45rem;
@@ -1157,7 +1162,7 @@
     .text-content h7{
         width: 70rem;
         font-size: 1.8rem;
-        margin-left: 5rem;
+        margin-left: 8rem;
         margin-top: 6rem;
         line-height: 2rem;
     }
@@ -1165,7 +1170,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left:  25rem; ;
+        margin-left:  18rem;
     }
     .industry-net {
         width: 35rem;
@@ -1223,7 +1228,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 25rem;
+        margin-left: 18rem;
     }
     .company-type {
         width: 35rem;
@@ -1290,6 +1295,7 @@
         width: 70rem;
         height: 60rem;
         margin-left: 5rem;
+        margin-top: 6rem;
         
      }
      .flexbox-2-grid a{
@@ -1676,25 +1682,3 @@
       }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-    
-    
-
-    
-
