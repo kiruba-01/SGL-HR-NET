@@ -841,7 +841,7 @@
 .flex-row{
     display:grid;
     grid-template-columns: 1fr 1fr;
-     width: 85%;
+     width: 70%;
     height:10rem ;
       margin:1rem;
     border-radius:1rem;
@@ -858,13 +858,11 @@
     font-weight:700;
     margin-left:3rem;
     margin-top: 3.7rem;
-    /* background-color: palegreen; */
 }
   .wrapper input{
-      width: 100%;
+      width: 70%;
     font-size:1rem;
     padding-left:1rem;
-       margin-left:-40%;
     font-weight:400;
       margin-top:4rem;
       height: 3rem;
@@ -897,48 +895,49 @@
    height:1rem;
    font-weight:700;
    flex-wrap: wrap;
-   margin-left:-4rem;
-   margin-top:5rem;
+   margin-left:4rem;
+   /* margin-top:5rem; */
    cursor: pointer;
  }
  .innerflex1{
     padding-top:3rem;
    padding-left:6rem;
-     font-size: 1rem;
+     font-size: 1.2rem;
      display: flex;
    color: #52525B;
    line-height:0.7rem;
   align-items:centre;
    flex-wrap:wrap;
-   gap: 1.5rem;
+   gap: 1rem;
    flex-direction:row;
     font-weight:500;
    font-style:Helvetica;
    margin-left:-4rem;
    cursor: pointer;
+   width: 75%;
+   margin-left: 4rem;
   }
-  .innerflex1 :hover{
+ .innerflex1 :hover{
     border-bottom: 1px solid black;
-  }
+}
+  
  .flexsecond{
     padding-top:3rem;
    padding-left:6rem;
-     font-size: 1rem;
+     font-size: 1.2rem;
      display: flex;
      color: #52525B;
    line-height:0.9rem;
   align-items:centre;
    flex-wrap:wrap;
-   gap:1.5rem;
+   gap:1rem;
    flex-direction:row;
     font-weight:500;
    font-style:Helvetica;
    margin-left:-4rem;
-   width: 72rem;
    cursor: pointer;
-
-   
-
+   width: 75%;
+   margin-left: 4rem;
   }
  .flexsecond :hover{
   border-bottom: 1px solid black;
@@ -946,18 +945,20 @@
  .flexthrid{
     padding-top:3rem;
    padding-left:6rem;
-     font-size: 1rem;
+     font-size: 1.2rem;
      display: flex;
      color: #52525B;
    line-height:0.8rem;
   align-items:centre;
    flex-wrap:wrap;
-   gap:1.5rem;
+   gap:1rem;
    flex-direction:row;
     font-weight:500;
    font-style:Helvetica;
    margin-left:-4rem;
    cursor: pointer;
+   width: 75%;
+   margin-left: 4rem;
 
  }
  .flexthrid :hover{
